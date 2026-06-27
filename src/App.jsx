@@ -3,7 +3,7 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Education from "./sections/Education";
 import Skills from "./sections/Skills";
-import Projects from "./sections/Projects";
+// import Projects from "./sections/Projects";
 import Certificates from "./sections/Certificates";
 import Achievements from "./sections/Achievements";
 import Contact from "./sections/Contact";
@@ -38,7 +38,9 @@ export default function App() {
           <a href="#about" onClick={closeNav}>About</a>
           <a href="#education" onClick={closeNav}>Education</a>
           <a href="#skills" onClick={closeNav}>Skills</a>
-          <a href="#projects" onClick={closeNav}>Projects</a>
+          {/* <a href="#projects" onClick={closeNav}>Projects</a> */}
+          <a href="#certificates" onClick={closeNav}>Certificates</a>
+          <a href="#achievements" onClick={closeNav}>Achievements</a>
           <a href="#contact" onClick={closeNav}>Contact</a>
         </div>
       </nav>
@@ -46,7 +48,7 @@ export default function App() {
       <About />
       <Education />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Certificates />
       <Achievements />
       <Contact />

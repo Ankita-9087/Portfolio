@@ -4,7 +4,6 @@ export default function About() {
 
       <div className="section-card max-w-6xl mx-auto glass p-10 rounded-3xl">
 
-        <p className="section-kicker">About</p>
         <h2 className="text-5xl font-bold mb-6">
           About Me
         </h2>

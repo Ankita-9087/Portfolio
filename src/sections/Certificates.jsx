@@ -1,18 +1,18 @@
 const certificates = [
   {
-    title: "Basic Computer Fundamentals",
-    detail: "Completed training in Basic Computer Fundamentals.",
-    year: "2023",
+    title: "Prompt Engineering",
+    detail: "Completed training in prompt writing and AI-assisted workflows.",
+    year: "2024",
   },
   {
-    title: "Internet Surfing",
-    detail: "Completed Internet Surfing training course.",
-    year: "2023",
+    title: "Excel",
+    detail: "Completed training in spreadsheets, formulas, and data organization.",
+    year: "2024",
   },
   {
-    title: "CorelDRAW Training",
-    detail: "Completed CorelDRAW training course.",
-    year: "2023",
+    title: "Basic HTML, CSS and JavaScript",
+    detail: "Completed training in basic web page structure, styling, and interaction.",
+    year: "2024",
   },
 ];
 

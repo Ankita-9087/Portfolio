@@ -16,7 +16,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative mt-24 border-t border-white/10 bg-black/20 backdrop-blur-xl overflow-hidden">
+    <footer className="site-footer relative mt-24 border-t border-white/10 bg-black/20 backdrop-blur-xl overflow-hidden">
       
       {/* Background Glow */}
       <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 via-pink-500/10 to-cyan-500/10" />
@@ -24,7 +24,7 @@ export default function Footer() {
       <div className="relative max-w-7xl mx-auto px-6 py-16">
 
         {/* Main Footer Content */}
-        <div className="grid md:grid-cols-3 gap-12">
+        <div className="footer-grid grid md:grid-cols-3 gap-12">
 
           {/* Brand */}
           <div>
@@ -37,7 +37,6 @@ export default function Footer() {
               innovation, and building meaningful digital
               experiences through technology.
             </p>
-
             <p className="mt-5 text-purple-300 italic">
               "Learning Today, Creating Tomorrow."
             </p>
@@ -49,13 +48,13 @@ export default function Footer() {
               Quick Links
             </h3>
 
-            <ul className="space-y-3">
+            <ul className="footer-links space-y-3">
               {[
                 "Home",
                 "About",
                 "Education",
                 "Skills",
-                "Projects",
+                // "Projects",
                 "Certificates",
                 "Contact",
               ].map((item) => (
@@ -77,7 +76,7 @@ export default function Footer() {
               Connect With Me
             </h3>
 
-            <div className="space-y-3 text-gray-400">
+            <div className="footer-contact space-y-3 text-gray-400">
               <p className="flex items-center gap-3">
                 <FaEnvelope className="text-purple-400" />
                 averm242114@gmail.com
@@ -87,7 +86,7 @@ export default function Footer() {
             </div>
 
             {/* Social Icons */}
-            <div className="flex gap-4 mt-6">
+            <div className="footer-social flex gap-4 mt-6">
 
               <a
                 href="#"
@@ -117,7 +116,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 mt-12 pt-8">
 
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="footer-bottom flex flex-col md:flex-row items-center justify-between gap-4">
 
             <p className="text-gray-400 text-sm">
               © {new Date().getFullYear()} Ankita Verma. All Rights Reserved.

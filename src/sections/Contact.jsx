@@ -24,7 +24,6 @@ export default function Contact() {
     <section id="contact" className="py-24 px-6">
       <div className="contact-panel max-w-6xl mx-auto glass p-10 rounded-3xl">
         <div>
-          <p className="section-kicker">Let's connect</p>
           <h2 className="text-5xl font-bold mb-8">Contact Me</h2>
 
           <div className="contact-cards space-y-4 mb-8">
